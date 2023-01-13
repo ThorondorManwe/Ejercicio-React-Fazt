@@ -1,5 +1,13 @@
 import React from "react";
-import ReactDOM from 'react-dom/client';
+import ReactDOM from "react-dom/client";
+import Greeting from "./Greeting";
+import Product from "./Product";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>Hello World</h1>);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <>
+    <Greeting />
+    <Product />
+  </>
+);
