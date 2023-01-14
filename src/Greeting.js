@@ -1,3 +1,4 @@
-export default function Greeting() {
-  return <h1>Componente de React</h1>;
+export default function Greeting({ title, name="User"}) {
+  console.log(title);
+  return <h1>{title}, dice {name}</h1>;
 }
